@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+
+
+body {
+    font-family: "Comfortaa", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d3a8a8;
+    
+}
+
+.container {
+    max-width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header {
+    font-family: "Comfortaa", sans-serif;
+    background-color: #ff4000;
+    color: #3bac79;
+    padding: 20px;
+    box-shadow: -1px 16px 4px rgba(0, 0, 0, 0.1);
+    position: fixed !important;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav {
+    margin-bottom: 20px;
+}
+
+main {
+    padding-top: 70px;
+}
+
+a {
+    text-decoration: none;
+    color: #004827;
+}
+
+.card-title{
+    font-family: "Comfortaa", sans-serif;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+
+
+.card-text{
+    font-family: "Comfortaa", sans-serif;
+    font-size: 1.2em;
+}
+
+.head-text{
+    margin-top: 20vh;
+    margin-bottom: 55vh;
+    font-family: "Comfortaa", sans-serif;
+}
+
+.bigger-btn {
+    font-size: 1.5em; /* Увеличиваем размер текста */
+    padding: 10px 20px; /* Увеличиваем отступы кнопки */
+}
+
+.bigger-btn.btn-primary {
+    background-color: #ffffff; /* Белый цвет фона */
+    color: #004827; /* Цвет текста */
+    font-weight: bold; /* Жирный текст */
+}
+.class-selection{
+    font-family: "Comfortaa", sans-serif;
+}
+
+
+.quest{
+    font-family: "Comfortaa", sans-serif;
+}
+
+
+
+@media (max-width: 768px) {
+    .img-head {
+        max-width: 50%; /* Уменьшаем максимальную ширину изображения для планшетов */
+    }
+}
+
+/* Добавляем стили для адаптации изображения на очень маленьких экранах, например, для смартфонов */
+@media (max-width: 576px) {
+    .img-head {
+        max-width: 80%; /* Уменьшаем максимальную ширину изображения для смартфонов */
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .container {
+        max-width: 80%;
+    }
+}
